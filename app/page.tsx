@@ -177,7 +177,7 @@ export default function HomePage() {
               Acho bom que tenha clicado aqui, imagina que pecado não estarmos juntos grudados!😍
             </Typography>
             <Typography sx={{ position: "absolute", bottom: "15%", left: "50%", transform: "translateX(-50%)", color: "white", textShadow: "0px 2px 6px rgba(0,0,0,0.7)" }}>
-              Estou muito feliz que você disse sim, agora tira a ropa mo to com saudade!
+              
             </Typography>
           </Box>
           <Button
