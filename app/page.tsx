@@ -172,7 +172,7 @@ export default function HomePage() {
       <Modal open={openSim} onClose={() => setOpenSim(false)}>
         <Box sx={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", width: "90%", maxWidth: 400, borderRadius: 2, overflow: "hidden", textAlign: "center" }}>
           <Box sx={{ position: "relative" }}>
-            <img src="/sim.jpg" alt="Sim" style={{ width: "100%", display: "block", borderRadius: "10px" }} />
+            <img src="/sim.png" alt="Sim" style={{ width: "100%", display: "block", borderRadius: "10px" }} />
             <Typography variant="h5" sx={{ position: "absolute", top: "10%", left: "50%", transform: "translateX(-50%)", color: "white", fontWeight: "bold", textShadow: "0px 2px 8px rgba(0,0,0,0.8)" }}>
               Acho bom que tenha clicado aqui, imagina que pecado não estarmos juntos grudados!😍
             </Typography>
