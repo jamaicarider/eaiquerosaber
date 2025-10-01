@@ -69,44 +69,7 @@ export default function HomePage() {
     <Box sx={{ fontFamily: "Helvetica, Arial, sans-serif" }}>
       <audio id="bg-audio" src="/musica.mp3" loop />
 
-      {/* Player fixo estilo Tumblr */}
-      <Box
-        sx={{
-          position: "fixed",
-          top: 16,
-          right: 16,
-          display: "flex",
-          alignItems: "center",
-          gap: 1,
-          bgcolor: "rgba(0,0,0,0.5)",
-          px: 2,
-          py: 1,
-          borderRadius: "30px",
-          zIndex: 9999,
-        }}
-      >
-        <IconButton onClick={togglePlay} sx={{ color: "white" }}>
-          {playing ? <VolumeUpIcon /> : <VolumeOffIcon />}
-        </IconButton>
-
-        <Box sx={{ display: "flex", gap: "3px", height: "20px" }}>
-          {[1, 2, 3, 4, 5].map((i) => (
-            <Box
-              key={i}
-              sx={{
-                width: "3px",
-                height: playing ? `${5 + i * 4}px` : "5px",
-                bgcolor: "limegreen",
-                animation: playing ? "equalize 0.5s ease-in-out infinite alternate" : "none",
-                "@keyframes equalize": {
-                  from: { height: "5px" },
-                  to: { height: `${10 + i * 6}px` },
-                },
-              }}
-            />
-          ))}
-        </Box>
-      </Box>
+     
 
       {/* Banner */}
       <Box
@@ -211,10 +174,10 @@ export default function HomePage() {
           <Box sx={{ position: "relative" }}>
             <img src="/sim.jpg" alt="Sim" style={{ width: "100%", display: "block", borderRadius: "10px" }} />
             <Typography variant="h5" sx={{ position: "absolute", top: "10%", left: "50%", transform: "translateX(-50%)", color: "white", fontWeight: "bold", textShadow: "0px 2px 8px rgba(0,0,0,0.8)" }}>
-              Que bom! 😍
+              Acho bom que tenha clicado aqui, imagina que pecado não estarmos juntos grudados!😍
             </Typography>
             <Typography sx={{ position: "absolute", bottom: "15%", left: "50%", transform: "translateX(-50%)", color: "white", textShadow: "0px 2px 6px rgba(0,0,0,0.7)" }}>
-              Estou muito feliz que você disse sim!
+              Estou muito feliz que você disse sim, agora tira a ropa mo to com saudade!
             </Typography>
           </Box>
           <Button
